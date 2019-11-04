@@ -2,26 +2,26 @@ yr,subject,winner
 1901,Chemistry,Jacobus H. van 't Hoff
 1901,Literature,Sully Prudhomme
 1901,Medicine,Emil von Behring
-1901,Peace,Fr&eacute;d&eacute;ric Passy
+1901,Peace,Freacutedeacuteric Passy
 1901,Peace,Henry Dunant
-1901,Physics,Wilhelm Conrad R&ouml;ntgen
+1901,Physics,Wilhelm Conrad Roumlntgen
 1902,Chemistry,Emil Fischer
 1902,Literature,Theodor Mommsen
 1902,Medicine,Ronald Ross
-1902,Peace,&Eacute;lie Ducommun
+1902,Peace,Eacutelie Ducommun
 1902,Peace,Albert Gobat
 1902,Physics,Hendrik A. Lorentz
 1902,Physics,Pieter Zeeman
 1903,Chemistry,Svante Arrhenius
-1903,Literature,Bj&oslash;rnstjerne Bj&oslash;rnson
+1903,Literature,Bjoslashrnstjerne Bjoslashrnson
 1903,Medicine,Niels Ryberg Finsen
 1903,Peace,Randal Cremer
 1903,Physics,Henri Becquerel
 1903,Physics,Marie Curie
 1903,Physics,Pierre Curie
 1904,Chemistry,Sir William Ramsay
-1904,Literature,Fr&eacute;d&eacute;ric Mistral
-1904,Literature,Jos&eacute; Echegaray
+1904,Literature,Freacutedeacuteric Mistral
+1904,Literature,Joseacute Echegaray
 1904,Medicine,Ivan Pavlov
 1904,Peace,Institute of International Law
 1904,Physics,Lord Rayleigh
@@ -31,9 +31,9 @@ yr,subject,winner
 1905,Peace,Bertha von Suttner
 1905,Physics,Philipp Lenard
 1906,Chemistry,Henri Moissan
-1906,Literature,Giosu&egrave; Carducci
+1906,Literature,Giosuegrave Carducci
 1906,Medicine,Camillo Golgi
-1906,Medicine,Santiago Ram&oacute;n y Cajal
+1906,Medicine,Santiago Ramoacuten y Cajal
 1906,Peace,Theodore Roosevelt
 1906,Physics,J.J. Thomson
 1907,Chemistry,Eduard Buchner
@@ -50,7 +50,7 @@ yr,subject,winner
 1908,Peace,Klas Pontus Arnoldson
 1908,Physics,Gabriel Lippmann
 1909,Chemistry,Wilhelm Ostwald
-1909,Literature,Selma Lagerl&ouml;f
+1909,Literature,Selma Lagerloumlf
 1909,Medicine,Theodor Kocher
 1909,Peace,Auguste Beernaert
 1909,Peace,Paul Henri d'Estournelles de Constant
@@ -72,16 +72,16 @@ yr,subject,winner
 1912,Literature,Gerhart Hauptmann
 1912,Medicine,Alexis Carrel
 1912,Peace,Elihu Root
-1912,Physics,Gustaf Dal&eacute;n
+1912,Physics,Gustaf Daleacuten
 1913,Chemistry,Alfred Werner
 1913,Literature,Rabindranath Tagore
 1913,Medicine,Charles Richet
 1913,Peace,Henri La Fontaine
 1913,Physics,Heike Kamerlingh Onnes
 1914,Chemistry,Theodore W. Richards
-1914,Medicine,Robert B&aacute;r&aacute;ny
+1914,Medicine,Robert Baacuteraacuteny
 1914,Physics,Max von Laue
-1915,Chemistry,Richard Willst&auml;tter
+1915,Chemistry,Richard Willstaumltter
 1915,Literature,Romain Rolland
 1915,Physics,Lawrence Bragg
 1915,Physics,William Bragg
@@ -99,7 +99,7 @@ yr,subject,winner
 1920,Chemistry,Walther Nernst
 1920,Literature,Knut Hamsun
 1920,Medicine,August Krogh
-1920,Peace,L&eacute;on Bourgeois
+1920,Peace,Leacuteon Bourgeois
 1920,Physics,Charles Edouard Guillaume
 1921,Chemistry,Frederick Soddy
 1921,Literature,Anatole France
@@ -153,7 +153,7 @@ yr,subject,winner
 1930,Chemistry,Hans Fischer
 1930,Literature,Sinclair Lewis
 1930,Medicine,Karl Landsteiner
-1930,Peace,Nathan S&ouml;derblom
+1930,Peace,Nathan Soumlderblom
 1930,Physics,Venkata Raman
 1931,Chemistry,Carl Bosch
 1931,Chemistry,Friedrich Bergius
@@ -169,7 +169,7 @@ yr,subject,winner
 1933,Literature,Ivan Bunin
 1933,Medicine,Thomas H. Morgan
 1933,Peace,Sir Norman Angell
-1933,Physics,Erwin Schr&ouml;dinger
+1933,Physics,Erwin Schroumldinger
 1933,Physics,Paul A.M. Dirac
 1934,Chemistry,Harold C. Urey
 1934,Literature,Luigi Pirandello
@@ -177,8 +177,8 @@ yr,subject,winner
 1934,Medicine,George R. Minot
 1934,Medicine,William P. Murphy
 1934,Peace,Arthur Henderson
-1935,Chemistry,Fr&eacute;d&eacute;ric Joliot
-1935,Chemistry,Ir&egrave;ne Joliot-Curie
+1935,Chemistry,Freacutedeacuteric Joliot
+1935,Chemistry,Iregravene Joliot-Curie
 1935,Medicine,Hans Spemann
 1935,Peace,Carl von Ossietzky
 1935,Physics,James Chadwick
@@ -192,7 +192,7 @@ yr,subject,winner
 1937,Chemistry,Norman Haworth
 1937,Chemistry,Paul Karrer
 1937,Literature,Roger Martin du Gard
-1937,Medicine,Albert Szent-Gy&ouml;rgyi
+1937,Medicine,Albert Szent-Gyoumlrgyi
 1937,Peace,Robert Cecil
 1937,Physics,Clinton Davisson
 1937,Physics,George Paget Thomson
@@ -203,7 +203,7 @@ yr,subject,winner
 1938,Physics,Enrico Fermi
 1939,Chemistry,Adolf Butenandt
 1939,Chemistry,Leopold Ruzicka
-1939,Literature,Frans Eemil Sillanp&auml;&auml;
+1939,Literature,Frans Eemil Sillanpaumlauml
 1939,Medicine,Gerhard Domagk
 1939,Physics,Ernest Lawrence
 1943,Chemistry,George de Hevesy
@@ -232,7 +232,7 @@ yr,subject,winner
 1946,Peace,John R. Mott
 1946,Physics,Percy W. Bridgman
 1947,Chemistry,Sir Robert Robinson
-1947,Literature,Andr&eacute; Gide
+1947,Literature,Andreacute Gide
 1947,Medicine,Bernardo Houssay
 1947,Medicine,Carl Cori
 1947,Medicine,Gerty Cori
@@ -241,7 +241,7 @@ yr,subject,winner
 1947,Physics,Edward V. Appleton
 1948,Chemistry,Arne Tiselius
 1948,Literature,T.S. Eliot
-1948,Medicine,Paul M&uuml;ller
+1948,Medicine,Paul Muumlller
 1948,Physics,Patrick M.S. Blackett
 1949,Chemistry,William F. Giauque
 1949,Literature,William Faulkner
@@ -259,14 +259,14 @@ yr,subject,winner
 1950,Physics,Cecil Powell
 1951,Chemistry,Edwin M. McMillan
 1951,Chemistry,Glenn T. Seaborg
-1951,Literature,P&auml;r Lagerkvist
+1951,Literature,Paumlr Lagerkvist
 1951,Medicine,Max Theiler
-1951,Peace,L&eacute;on Jouhaux
+1951,Peace,Leacuteon Jouhaux
 1951,Physics,Ernest T.S. Walton
 1951,Physics,John Cockcroft
 1952,Chemistry,Archer J.P. Martin
 1952,Chemistry,Richard L.M. Synge
-1952,Literature,Fran&ccedil;ois Mauriac
+1952,Literature,Franccedilois Mauriac
 1952,Medicine,Selman A. Waksman
 1952,Peace,Albert Schweitzer
 1952,Physics,E. M. Purcell
@@ -286,14 +286,14 @@ yr,subject,winner
 1954,Physics,Max Born
 1954,Physics,Walther Bothe
 1955,Chemistry,Vincent du Vigneaud
-1955,Literature,Halld&oacute;r Laxness
+1955,Literature,Halldoacuter Laxness
 1955,Medicine,Hugo Theorell
 1955,Physics,Polykarp Kusch
 1955,Physics,Willis E. Lamb
 1956,Chemistry,Nikolay Semenov
 1956,Chemistry,Sir Cyril Hinshelwood
-1956,Literature,Juan Ram&oacute;n Jim&eacute;nez
-1956,Medicine,Andr&eacute; F. Cournand
+1956,Literature,Juan Ramoacuten Jimeacutenez
+1956,Medicine,Andreacute F. Cournand
 1956,Medicine,Dickinson W. Richards
 1956,Medicine,Werner Forssmann
 1956,Physics,John Bardeen
@@ -312,14 +312,14 @@ yr,subject,winner
 1958,Medicine,Joshua Lederberg
 1958,Peace,Georges Pire
 1958,Physics,Igor Y. Tamm
-1958,Physics,Il&acute;ja M. Frank
+1958,Physics,Ilacuteja M. Frank
 1958,Physics,Pavel A. Cherenkov
 1959,Chemistry,Jaroslav Heyrovsky
 1959,Literature,Salvatore Quasimodo
 1959,Medicine,Arthur Kornberg
 1959,Medicine,Severo Ochoa
 1959,Peace,Philip Noel-Baker
-1959,Physics,Emilio Segr&egrave;
+1959,Physics,Emilio Segregrave
 1959,Physics,Owen Chamberlain
 1960,Chemistry,Willard F. Libby
 1960,Literature,Saint-John Perse
@@ -329,10 +329,10 @@ yr,subject,winner
 1960,Physics,Donald A. Glaser
 1961,Chemistry,Melvin Calvin
 1961,Literature,Ivo Andric
-1961,Medicine,Georg von B&eacute;k&eacute;sy
-1961,Peace,Dag Hammarskj&ouml;ld
+1961,Medicine,Georg von Beacutekeacutesy
+1961,Peace,Dag Hammarskjoumlld
 1961,Physics,Robert Hofstadter
-1961,Physics,Rudolf M&ouml;ssbauer
+1961,Physics,Rudolf Moumlssbauer
 1962,Chemistry,John C. Kendrew
 1962,Chemistry,Max F. Perutz
 1962,Literature,John Steinbeck
@@ -362,8 +362,8 @@ yr,subject,winner
 1964,Physics,Nicolay G. Basov
 1965,Chemistry,Robert B. Woodward
 1965,Literature,Mikhail Sholokhov
-1965,Medicine,Andr&eacute; Lwoff
-1965,Medicine,Fran&ccedil;ois Jacob
+1965,Medicine,Andreacute Lwoff
+1965,Medicine,Franccedilois Jacob
 1965,Medicine,Jacques Monod
 1965,Peace,United Nations Children's Fund
 1965,Physics,Julian Schwinger
@@ -388,7 +388,7 @@ yr,subject,winner
 1968,Medicine,H. Gobind Khorana
 1968,Medicine,Marshall W. Nirenberg
 1968,Medicine,Robert W. Holley
-1968,Peace,Ren&eacute; Cassin
+1968,Peace,Reneacute Cassin
 1968,Physics,Luis Alvarez
 1969,Chemistry,Derek Barton
 1969,Chemistry,Odd Hassel
@@ -396,7 +396,7 @@ yr,subject,winner
 1969,Economics,Ragnar Frisch
 1969,Literature,Samuel Beckett
 1969,Medicine,Alfred D. Hershey
-1969,Medicine,Max Delbr&uuml;ck
+1969,Medicine,Max Delbruumlck
 1969,Medicine,Salvador E. Luria
 1969,Peace,International Labour Organization
 1969,Physics,Murray Gell-Mann
@@ -407,8 +407,8 @@ yr,subject,winner
 1970,Medicine,Sir Bernard Katz
 1970,Medicine,Ulf von Euler
 1970,Peace,Norman Borlaug
-1970,Physics,Hannes Alfv&eacute;n
-1970,Physics,Louis N&eacute;el
+1970,Physics,Hannes Alfveacuten
+1970,Physics,Louis Neacuteel
 1971,Chemistry,Gerhard Herzberg
 1971,Economics,Simon Kuznets
 1971,Literature,Pablo Neruda
@@ -420,7 +420,7 @@ yr,subject,winner
 1972,Chemistry,William H. Stein
 1972,Economics,John R. Hicks
 1972,Economics,Kenneth J. Arrow
-1972,Literature,Heinrich B&ouml;ll
+1972,Literature,Heinrich Boumlll
 1972,Medicine,Gerald M. Edelman
 1972,Medicine,Rodney R. Porter
 1972,Physics,John Bardeen
@@ -447,7 +447,7 @@ yr,subject,winner
 1974,Medicine,Christian de Duve
 1974,Medicine,George E. Palade
 1974,Peace,Eisaku Sato
-1974,Peace,Se&aacute;n MacBride
+1974,Peace,Seaacuten MacBride
 1974,Physics,Antony Hewish
 1974,Physics,Martin Ryle
 1975,Chemistry,John Cornforth
@@ -512,7 +512,7 @@ yr,subject,winner
 1980,Medicine,Baruj Benacerraf
 1980,Medicine,George D. Snell
 1980,Medicine,Jean Dausset
-1980,Peace,Adolfo P&eacute;rez Esquivel
+1980,Peace,Adolfo Peacuterez Esquivel
 1980,Physics,James Cronin
 1980,Physics,Val Fitch
 1981,Chemistry,Kenichi Fukui
@@ -528,11 +528,11 @@ yr,subject,winner
 1981,Physics,Nicolaas Bloembergen
 1982,Chemistry,Aaron Klug
 1982,Economics,George J. Stigler
-1982,Literature,Gabriel Garc&iacute;a M&aacute;rquez
+1982,Literature,Gabriel Garciacutea Maacuterquez
 1982,Medicine,Bengt I. Samuelsson
 1982,Medicine,John R. Vane
-1982,Medicine,Sune K. Bergstr&ouml;m
-1982,Peace,Alfonso Garc&iacute;a Robles
+1982,Medicine,Sune K. Bergstroumlm
+1982,Peace,Alfonso Garciacutea Robles
 1982,Peace,Alva Myrdal
 1982,Physics,Kenneth G. Wilson
 1983,Chemistry,Henry Taube
@@ -545,8 +545,8 @@ yr,subject,winner
 1984,Chemistry,Bruce Merrifield
 1984,Economics,Richard Stone
 1984,Literature,Jaroslav Seifert
-1984,Medicine,C&eacute;sar Milstein
-1984,Medicine,Georges J.F. K&ouml;hler
+1984,Medicine,Ceacutesar Milstein
+1984,Medicine,Georges J.F. Koumlhler
 1984,Medicine,Niels K. Jerne
 1984,Peace,Desmond Tutu
 1984,Physics,Carlo Rubbia
@@ -576,9 +576,9 @@ yr,subject,winner
 1987,Economics,Robert M. Solow
 1987,Literature,Joseph Brodsky
 1987,Medicine,Susumu Tonegawa
-1987,Peace,Oscar Arias S&aacute;nchez
+1987,Peace,Oscar Arias Saacutenchez
 1987,Physics,J. Georg Bednorz
-1987,Physics,K. Alex M&uuml;ller
+1987,Physics,K. Alex Muumlller
 1988,Chemistry,Hartmut Michel
 1988,Chemistry,Johann Deisenhofer
 1988,Chemistry,Robert Huber
@@ -594,7 +594,7 @@ yr,subject,winner
 1989,Chemistry,Sidney Altman
 1989,Chemistry,Thomas R. Cech
 1989,Economics,Trygve Haavelmo
-1989,Literature,Camilo Jos&eacute; Cela
+1989,Literature,Camilo Joseacute Cela
 1989,Medicine,Harold E. Varmus
 1989,Medicine,J. Michael Bishop
 1989,Peace,The 14th Dalai Lama
@@ -624,7 +624,7 @@ yr,subject,winner
 1992,Literature,Derek Walcott
 1992,Medicine,Edmond H. Fischer
 1992,Medicine,Edwin G. Krebs
-1992,Peace,Rigoberta Mench&uacute; Tum
+1992,Peace,Rigoberta Menchuacute Tum
 1992,Physics,Georges Charpak
 1993,Chemistry,Kary B. Mullis
 1993,Chemistry,Michael Smith
@@ -654,7 +654,7 @@ yr,subject,winner
 1995,Chemistry,Paul J. Crutzen
 1995,Economics,Robert E. Lucas Jr.
 1995,Literature,Seamus Heaney
-1995,Medicine,Christiane N&uuml;sslein-Volhard
+1995,Medicine,Christiane Nuumlsslein-Volhard
 1995,Medicine,Edward B. Lewis
 1995,Medicine,Eric F. Wieschaus
 1995,Peace,Joseph Rotblat
@@ -670,7 +670,7 @@ yr,subject,winner
 1996,Medicine,Peter C. Doherty
 1996,Medicine,Rolf M. Zinkernagel
 1996,Peace,Carlos Filipe Ximenes Belo
-1996,Peace,Jos&eacute; Ramos-Horta
+1996,Peace,Joseacute Ramos-Horta
 1996,Physics,David M. Lee
 1996,Physics,Douglas D. Osheroff
 1996,Physics,Robert C. Richardson
@@ -689,20 +689,20 @@ yr,subject,winner
 1998,Chemistry,John Pople
 1998,Chemistry,Walter Kohn
 1998,Economics,Amartya Sen
-1998,Literature,Jos&eacute; Saramago
+1998,Literature,Joseacute Saramago
 1998,Medicine,Ferid Murad
 1998,Medicine,Louis J. Ignarro
 1998,Medicine,Robert F. Furchgott
 1998,Peace,David Trimble
 1998,Peace,John Hume
 1998,Physics,Daniel C. Tsui
-1998,Physics,Horst L. St&ouml;rmer
+1998,Physics,Horst L. Stoumlrmer
 1998,Physics,Robert B. Laughlin
 1999,Chemistry,Ahmed Zewail
 1999,Economics,Robert A. Mundell
-1999,Literature,G&uuml;nter Grass
-1999,Medicine,G&uuml;nter Blobel
-1999,Peace,M&eacute;decins Sans Fronti&egrave;res
+1999,Literature,Guumlnter Grass
+1999,Medicine,Guumlnter Blobel
+1999,Peace,Meacutedecins Sans Frontiegraveres
 1999,Physics,Gerardus 't Hooft
 1999,Physics,Martinus J.G. Veltman
 2000,Chemistry,Alan G. MacDiarmid
@@ -735,10 +735,10 @@ yr,subject,winner
 2001,Physics,Wolfgang Ketterle
 2002,Chemistry,John B. Fenn
 2002,Chemistry,Koichi Tanaka
-2002,Chemistry,Kurt W&uuml;thrich
+2002,Chemistry,Kurt Wuumlthrich
 2002,Economics,Daniel Kahneman
 2002,Economics,Vernon L. Smith
-2002,Literature,Imre Kert&eacute;sz
+2002,Literature,Imre Kerteacutesz
 2002,Medicine,H. Robert Horvitz
 2002,Medicine,John E. Sulston
 2002,Medicine,Sydney Brenner
@@ -781,7 +781,7 @@ yr,subject,winner
 2005,Peace,Mohamed ElBaradei
 2005,Physics,John L. Hall
 2005,Physics,Roy J. Glauber
-2005,Physics,Theodor W. H&auml;nsch
+2005,Physics,Theodor W. Haumlnsch
 2006,Chemistry,Roger D. Kornberg
 2006,Economics,Edmund S. Phelps
 2006,Literature,Orhan Pamuk
@@ -802,100 +802,100 @@ yr,subject,winner
 2007,Peace,Albert Arnold (Al) Gore Jr.
 2007,Peace,Intergovernmental Panel on Climate Change (IPCC)
 2007,Physics,Albert Fert
-2007,Physics,Peter Gr&Atilde;&frac14;nberg
-2008,Physics,Yoichiro Nambu
+2007,Physics,Peter GrAtildefrac14nberg
+2008,Chemistry,Martin Chalfie
+2008,Chemistry,Osamu Shimomura
+2008,Chemistry,Roger Y. Tsien
+2008,Economics,Paul Krugman
+2008,Literature,J. M. G. Le Clézio
+2008,Medicine,Françoise Barré-Sinoussi
+2008,Medicine,Harald zur Hausen
+2008,Medicine,Luc Montagnier
+2008,Peace,Martti Ahtisaari
 2008,Physics,Makoto Kobayashi
 2008,Physics,Toshihide Maskawa
-2008,Chemistry,Osamu Shimomura
-2008,Chemistry,Martin Chalfie
-2008,Chemistry,Roger Y. Tsien
-2008,Medicine,Harald zur Hausen
-2008,Medicine,Françoise Barré-Sinoussi
-2008,Medicine,Luc Montagnier
-2008,Literature,J. M. G. Le Clézio
-2008,Peace,Martti Ahtisaari
-2008,Economics,Paul Krugman
-2009,Physics,Charles K. Kao
-2009,Physics,Willard S. Boyle
-2009,Physics,George E. Smith
-2009,Chemistry,Venkatraman Ramakrishnan
-2009,Chemistry,Thomas A. Steitz
+2008,Physics,Yoichiro Nambu
 2009,Chemistry,Ada Yonath
-2009,Medicine,Elizabeth Blackburn
-2009,Medicine,Carol W. Greider
-2009,Medicine,Jack W. Szostak
-2009,Literature,Herta Müller
-2009,Peace,Barack Obama
+2009,Chemistry,Thomas A. Steitz
+2009,Chemistry,Venkatraman Ramakrishnan
 2009,Economics,Elinor Ostrom
 2009,Economics,Oliver E. Williamson
+2009,Literature,Herta Müller
+2009,Medicine,Carol W. Greider
+2009,Medicine,Elizabeth Blackburn
+2009,Medicine,Jack W. Szostak
+2009,Peace,Barack Obama
+2009,Physics,Charles K. Kao
+2009,Physics,George E. Smith
+2009,Physics,Willard S. Boyle
+2010,Chemistry,Akira Suzuki
+2010,Chemistry,Ei-ichi Negishi
+2010,Chemistry,Richard F. Heck
+2010,Economics,Christopher A. Pissarides
+2010,Economics,Dale T. Mortensen
+2010,Economics,Peter A. Diamond
+2010,Literature,Mario Vargas Llosa
+2010,Medicine,Robert G. Edwards
+2010,Peace,Liu Xiaobo
 2010,Physics,Andre Geim
 2010,Physics,Konstantin Novoselov
-2010,Chemistry,Richard F. Heck
-2010,Chemistry,Ei-ichi Negishi
-2010,Chemistry,Akira Suzuki
-2010,Medicine,Robert G. Edwards
-2010,Literature,Mario Vargas Llosa
-2010,Peace,Liu Xiaobo
-2010,Economics,Peter A. Diamond
-2010,Economics,Dale T. Mortensen
-2010,Economics,Christopher A. Pissarides
-2011,Physics,Saul Perlmutter
-2011,Physics,Adam G. Riess
-2011,Physics,Brian Schmidt
 2011,Chemistry,Dan Shechtman
+2011,Economics,Christopher A. Sims
+2011,Economics,Thomas J. Sargent
+2011,Literature,Tomas Tranströmer
 2011,Medicine,Bruce Beutler
 2011,Medicine,Jules A. Hoffmann
 2011,Medicine,Ralph M. Steinman
-2011,Literature,Tomas Tranströmer
 2011,Peace,Ellen Johnson Sirleaf
 2011,Peace,Leymah Gbowee
 2011,Peace,Tawakel Karman
-2011,Economics,Thomas J. Sargent
-2011,Economics,Christopher A. Sims
-2012,Physics,Serge Haroche
-2012,Physics,David J. Wineland
+2011,Physics,Adam G. Riess
+2011,Physics,Brian Schmidt
+2011,Physics,Saul Perlmutter
 2012,Chemistry,Brian K. Kobilka
 2012,Chemistry,Robert J. Lefkowitz
-2012,Medicine,John B. Gurdon
-2012,Medicine,Shinya Yamanaka
-2012,Literature,Mo Yan
-2012,Peace,European Union
 2012,Economics,Alvin E. Roth
 2012,Economics,Lloyd S. Shapley
-2013,Physics,François Englert
-2013,Physics,Peter W. Higgs
+2012,Literature,Mo Yan
+2012,Medicine,John B. Gurdon
+2012,Medicine,Shinya Yamanaka
+2012,Peace,European Union
+2012,Physics,David J. Wineland
+2012,Physics,Serge Haroche
+2013,Chemistry,Arieh Warshel
 2013,Chemistry,Martin Karplus
 2013,Chemistry,Michael Levitt
-2013,Chemistry,Arieh Warshel
-2013,Medicine,James E. Rothman
-2013,Medicine,Randy W. Schekman
-2013,Medicine,Thomas C. Südhof
-2013,Literature,Alice Munro
-2013,Peace,Organisation for the Prohibition of Chemical Weapons
 2013,Economics,Eugene F. Fama
 2013,Economics,Lars Peter Hansen
 2013,Economics,Robert J. Shiller
-2014,Physics,Isamu Akasaki
-2014,Physics,Hiroshi Amano
-2014,Physics,Shuji Nakamura
+2013,Literature,Alice Munro
+2013,Medicine,James E. Rothman
+2013,Medicine,Randy W. Schekman
+2013,Medicine,Thomas C. Südhof
+2013,Peace,Organisation for the Prohibition of Chemical Weapons
+2013,Physics,François Englert
+2013,Physics,Peter W. Higgs
 2014,Chemistry,Eric Betzig
 2014,Chemistry,Stefan Hell
 2014,Chemistry,William Moerner
+2014,Economics,Jean Tirole
+2014,Literature,Patrick Modiano
+2014,Medicine,Edvard Moser
 2014,Medicine,John O'Keefe
 2014,Medicine,May-Britt Moser
-2014,Medicine,Edvard Moser
-2014,Literature,Patrick Modiano
 2014,Peace,Kailash Satyarthi
 2014,Peace,Malala Yousafzai
-2014,Economics,Jean Tirole
-2015,Physics,Takaaki Kajita
-2015,Physics,Arthur B. McDonald
-2015,Chemistry,Tomas Lindahl
-2015,Chemistry,Paul L. Modrich
+2014,Physics,Hiroshi Amano
+2014,Physics,Isamu Akasaki
+2014,Physics,Shuji Nakamura
 2015,Chemistry,Aziz Sancar
-2015,Medicine,William C. Campbell
+2015,Chemistry,Paul L. Modrich
+2015,Chemistry,Tomas Lindahl
+2015,Economics,Angus Deaton
+2015,Literature,Svetlana Alexievich
 2015,Medicine,Satoshi ?mura
 2015,Medicine,Tu Youyou
-2015,Literature,Svetlana Alexievich
+2015,Medicine,William C. Campbell
 2015,Peace,Tunisian National Dialogue Quartet
-2015,Economics,Angus Deaton
+2015,Physics,Arthur B. McDonald
+2015,Physics,Takaaki Kajita
