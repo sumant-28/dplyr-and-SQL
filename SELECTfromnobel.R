@@ -34,8 +34,8 @@ nobel %>%
 # AND subject = 'Literature'
 
 nobel %>%
-  select(winner, yr) %>%
-  filter(yr == 1962 & subject == "Literature")
+  filter(yr == 1962 & subject == "Literature") %>%
+  select(winner)
 
 # 3. Albert Einstein
 
@@ -46,8 +46,8 @@ nobel %>%
 # WHERE winner = 'Albert Einstein'
 
 nobel %>%
-  select(yr, subject, winner) %>%
-  filter(winner == "Albert Einstein")
+  filter(winner == "Albert Einstein") %>%
+  select(yr, subject)
 
 # 4. Recent Peace Prizes
 
@@ -59,8 +59,8 @@ nobel %>%
 # AND subject = 'Peace'
 
 nobel %>%
-  select(yr, subject, winner) %>%
-  filter(subject == "Peace" & yr > 1999 )
+  filter(subject == "Peace" & yr > 1999 ) %>%
+  select(winner)
 
 # 5. Literature in the 1980's
 
@@ -87,7 +87,7 @@ nobel %>%
 # 'Barack Obama')
 
 nobel %>%
-  select(yr, subject, winner) %>%
+  select(everything()) %>%
   filter(winner %in% c("Woodrow Wilson", "Theodore Roosevelt", "Jimmy Carter", "Barack Obama"))
 
 # 7. John
@@ -112,6 +112,4 @@ nobel %>%
 # OR yr = 1984 AND subject = 'Chemistry'
 
 nobel %>%
-  select(yr, subject, winner) %>%
-  filter(yr == 1980 & subject == "Physics") %>%
-  filter(yr == 1984 & subject == "Chemistry")
+  filter(subject == "Physics" & year == 1989 | subject == "Chemistry" & year == 1984)

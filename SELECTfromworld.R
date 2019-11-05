@@ -29,8 +29,8 @@ world %>%
 # WHERE population > 200000000
 
 world %>%
-  select(name, population) %>%
-  filter(population > 200000000)
+  filter(population > 200000000) %>%
+  select(name)
 
 # 3. Per capita GDP
 
@@ -41,8 +41,8 @@ world %>%
 
 world %>%
   mutate(gdp_percapita = gdp/population) %>%
-  select(name, gdp_percapita, population) %>%
-  filter(population > 200000000)
+  filter(population > 200000000) %>%
+  select(name, gdp_percapita)
 
 # 4. South America In millions
 
@@ -53,8 +53,8 @@ world %>%
 
 world %>%
   mutate(millions = population/1000000) %>%
-  select(name, millions, continent) %>%
-  filter(continent == "South America")
+  filter(continent == "South America") %>%
+  select(name, millions)
 
 # 5. France, Germany, Italy
 
@@ -128,8 +128,8 @@ world %>%
 
 world %>%
   mutate(roundedgdp_percapita = round(gdp/population, -3)) %>%
-  select(name, roundedgdp_percapita, gdp) %>%
-  filter(gdp > 1000000000000)
+  filter(gdp > 1000000000000) %>%
+  select(name, roundedgdp_percapita)
 
 # 11. Name and capital have the same length
 
@@ -143,8 +143,8 @@ world %>%
   mutate(name_length = str_length(name),
          capital_length = str_length(capital)
   ) %>%
-  select(name, capital, name_length, capital_length) %>%
-  filter(name_length == capital_length)
+  filter(name_length == capital_length) %>%
+  select(name, capital)
 
 # 12. Matching name and capital
 
@@ -160,8 +160,8 @@ world %>%
          name_string = as.character(name),
          capital_string = as.character(capital)
   ) %>%
-  select(name_string, capital_string, name_left, capital_left) %>%
-  filter(name_left == capital_left & name_string != capital_string)
+  filter(name_left == capital_left & name_string != capital_string) %>%
+  select(name, capital)
 
 # the extra lines of code used in this dplyr solution a result of how the data is read into memory
 

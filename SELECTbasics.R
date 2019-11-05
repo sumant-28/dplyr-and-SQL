@@ -74,8 +74,6 @@ world %>%
   select(name, population) %>%
   filter(str_detect(name, "Al"))
 
-# this workaround using the stringr package is not as general as the internal SQL function
-
 # 3. Select the code which shows the countries that end in A or L.
 
 # sqlzoo solution
@@ -97,12 +95,8 @@ world %>%
 
 world %>%
   mutate(length_name = str_length(name)) %>%
-  select(name, length_name, continent) %>%
-  filter(length_name == 5 & continent == "Europe")
-
-# there does not appear to be a way to filter for results depending on a variable while also excluding the variable from the output
-
-# in past solutions the order of verbs does not matter but since mutate creates new variables in order for those verbs to not cause error they need to be created before new lines of code refer to them
+  filter(length_name == 5 & continent == "Europe") %>%
+  select(name, length_name)
 
 # 5. Here are the first few rows of the world table:
 
@@ -112,8 +106,8 @@ world %>%
 
 world %>%
   mutate(areatimestwo = area*2) %>%
-  select(name, areatimestwo, population) %>%
-  filter(population == 76098)
+  filter(population == 76098) %>%
+  select(name, areatimestwo)
 
 # 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000
 
