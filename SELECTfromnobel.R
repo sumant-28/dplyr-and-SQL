@@ -87,7 +87,6 @@ nobel %>%
 # 'Barack Obama')
 
 nobel %>%
-  select(everything()) %>%
   filter(winner %in% c("Woodrow Wilson", "Theodore Roosevelt", "Jimmy Carter", "Barack Obama"))
 
 # 7. John
@@ -112,4 +111,82 @@ nobel %>%
 # OR yr = 1984 AND subject = 'Chemistry'
 
 nobel %>%
-  filter(subject == "Physics" & year == 1989 | subject == "Chemistry" & year == 1984)
+  filter(subject == "Physics" & yr == 1980 | subject == "Chemistry" & yr == 1984) 
+
+# 9. Exclude Chemists and Medics
+
+# sqlzoo solution
+
+# SELECT yr, subject, winner
+# FROM nobel
+# WHERE yr = 1980
+# AND subject NOT IN('Chemistry','Medicine')
+
+nobel %>%
+  filter(yr == 1980 & !subject %in% c("Chemistry","Medicine"))
+
+# 10. Early Medicine, Late Literature
+
+# sqlzoo solution
+
+# SELECT yr, subject, winner
+# FROM nobel
+# WHERE subject = 'Medicine' AND yr < 1910
+# OR subject = 'Literature' AND yr > 2003
+# ORDER BY winner
+
+nobel %>%
+  filter(subject == "Medicine" & yr < 1910 | subject == "Literature" & yr > 2003) %>%
+  arrange(winner)
+
+# 11. Umlaut
+
+# sqlzoo solution
+
+# SELECT *
+# FROM nobel
+# WHERE winner LIKE 'Peter G%'
+
+nobel %>%
+  filter(grepl("Peter G", winner))
+
+# 12. Apostrophe
+
+# sqlzoo solution
+
+# SELECT *
+# FROM nobel
+# WHERE winner LIKE 'Eugene O%'
+
+nobel %>%
+  filter(grepl("Eugene O", winner))
+
+# 13. Knights of the realm
+
+# sqlzoo solution
+
+# SELECT winner, yr subject
+# FROM nobel
+# WHERE winner LIKE 'Sir%'
+
+nobel %>%
+  filter(grepl("^Sir", winner)) %>%
+  arrange(desc(yr)) %>%
+  select(winner, yr, subject)
+
+# 14. Chemistry and Physics last
+
+# sqlzoo solution
+
+# SELECT winner, subject
+# FROM nobel
+# WHERE yr = 1984
+# ORDER BY subject IN ('Physics', 'Chemistry'), subject, winner
+
+nobel %>%
+  filter(yr == 1984) %>%
+  mutate(bool = (subject == "Physics") + (subject == "Chemistry")) %>%
+  arrange(bool, subject, winner) %>%
+  select(winner, subject)
+
+# dplyr takes one more line of code to write because in SQL you can create a new variable to filter by without declaration
