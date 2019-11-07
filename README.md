@@ -1,0 +1,14 @@
+# dplyr-and-SQL
+The R package dplyr is described as being a replacement to relational database software that uses SQL to navigate databases. This repository demonstrates how that is the case by using the package while going through the first few examples in sqlzoo
+
+## SELECTbasics/SELECTfromnobel/SELECTfromworld
+
+For questions involving basic select queries dplyr seems to be no worse off than SQL, the syntax is equally straightforward.
+
+## SELECTinSELECT
+
+No file is uploaded, the author is not aware of a method to use nested select statements in dplyr.
+
+## SUMandCOUNT
+
+For select queries that involve the use of aggregate functions the dplyr package can be used to generate the same output as one would obtain using SQL but the code is not as succinct.
