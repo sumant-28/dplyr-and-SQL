@@ -12,3 +12,7 @@ No file is uploaded, the author is not aware of a method to use nested select st
 ## SUMandCOUNT
 
 For select queries that involve the use of aggregate functions the dplyr package can be used to generate the same output as one would obtain using SQL but the code is not as succinct.
+
+## JOIN
+
+In contrast to nested select and aggregate function queries joins are an advanced type of query where the dplyr package appears to be no more difficult than SQL to use
