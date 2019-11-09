@@ -60,7 +60,7 @@ goal %>%
 # WHERE player LIKE 'Mario%'
 
 goal %>%
-  left_join(game, c("matchid" = "id")) %>%        # goal has matchid variable, game has id variable
+  left_join(game, c("matchid" = "id")) %>%       
   select(team1, team2, player) %>%
   filter(grepl("^Mario",player))
 
@@ -74,7 +74,7 @@ goal %>%
 # WHERE gtime<=10
 
 goal %>%
-  left_join(eteam, c("teamid" = "id")) %>%        # goal has matchid variable, eteam has id variable
+  left_join(eteam, c("teamid" = "id")) %>%     
   filter(gtime <= 10) %>%
   select(player, teamid, coach, gtime)
 
@@ -175,3 +175,46 @@ goal %>%
   filter(teamid == "GER") %>%
   group_by(matchid, mdate) %>%
   summarise(count = n())
+
+# 13.
+
+# sqlzoo solution
+
+# SELECT mdate,
+# team1,
+# SUM(CASE WHEN teamid=team1 THEN 1 ELSE 0 END) score1,
+# team2,
+# SUM(CASE WHEN teamid=team2 THEN 1 ELSE 0 END) score2
+# FROM game LEFT JOIN goal ON matchid = id 
+# GROUP BY mdate,matchid,team1,team2
+
+dat1 <- goal %>%
+  left_join(game, c("matchid" = "id")) %>%
+  mutate(score1 = case_when(.$teamid == .$team1 ~ 1,
+                            TRUE ~ 0)) %>%
+  arrange(matchid, mdate, team1, team2) %>%
+  select(matchid, mdate, team1, score1)
+
+dat2 <- dat1 %>%
+  group_by(matchid, team1) %>%
+  summarise(count = n())
+
+dat3 <- dat1 %>%
+  group_by(matchid, team1) %>%
+  summarise(score1 = sum(as.numeric(score1)))
+
+game %>%
+  left_join(dat2, c("id" = "matchid")) %>%
+  mutate(isnacount = is.na(count)) %>%
+  left_join(dat3, c("id" = "matchid")) %>%
+  mutate(score2 = count - score1) %>%
+  select(mdate, team1.x, score1, team2, score2)
+
+# this code may be able to be rewritten more concisely but regardless the dplyr solution unsatisfactory
+# the final output has missing values which are difficult to manipulate to 0 in R and would take further lines of code
+# by contrast the SQL answer does not have these
+# the variables created in the summarise function cannot be combined into one dataframe operation
+
+
+
+  
