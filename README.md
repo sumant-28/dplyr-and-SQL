@@ -1,5 +1,5 @@
 # dplyr-and-SQL
-The R package dplyr is described as being a replacement to relational database software that uses SQL to navigate databases. This repository demonstrates how that is the case by using the package while going through the first few examples in sqlzoo
+The R package dplyr is described as being a replacement to relational database software that uses SQL to navigate databases. This repository demonstrates how that is the case by using the package while going through the first few examples in sqlzoo.
 
 ## SELECTbasics/SELECTfromnobel/SELECTfromworld
 
@@ -15,4 +15,6 @@ For select queries that involve the use of aggregate functions the dplyr package
 
 ## JOIN
 
-In contrast to nested select and aggregate function queries joins are an advanced type of query where the dplyr package appears to be no more difficult than SQL to use
+In contrast to nested select and aggregate function queries joins are an advanced type of query where the dplyr package appears to be no more difficult than SQL to use.
+
+The final problem shows where SQL is superior to using dplyr in R. When there are multiple aggregate functions and join statements the specialisation in SQL makes R a chore to work with by comparison.
