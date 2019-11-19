@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("J:/R")
+setwd("J:/R/dplyr")
 
 install.packages("tidyverse")
 library(tidyverse)

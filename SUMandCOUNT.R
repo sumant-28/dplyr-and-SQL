@@ -1,11 +1,11 @@
 rm(list = ls())
-setwd("J:/R")
+setwd("J:/R/dplyr")
 
-install.packages("tidyverse")
+# install.packages("tidyverse")
 library(tidyverse)
-install.packages("dplyr")
+# install.packages("dplyr")
 library(dplyr)
-install.packages("stringr")
+# install.packages("stringr")
 library(stringr)
 
 world <- read.csv("world.csv")
@@ -88,7 +88,12 @@ world %>%
 
 world %>%
   group_by(continent) %>%
-  summarise(ndistinct = n_distinct(name))
+  summarise(ndistinct = n_distinct(name)) 
+
+dat <- world %>%
+  group_by(continent) %>%
+  select(continent, name) %>%
+  arrange(continent)
 
 # 7. Counting big countries in each continent
 

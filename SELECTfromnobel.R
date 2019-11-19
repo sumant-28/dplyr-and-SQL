@@ -1,11 +1,11 @@
 rm(list = ls())
-setwd("J:/R")
+setwd("J:/R/dplyr")
 
-install.packages("tidyverse")
+# install.packages("tidyverse")
 library(tidyverse)
-install.packages("dplyr")
+# install.packages("dplyr")
 library(dplyr)
-install.packages("stringr")
+# install.packages("stringr")
 library(stringr)
 
 nobel <- read.csv("nobel.csv")
@@ -190,3 +190,4 @@ nobel %>%
   select(winner, subject)
 
 # dplyr takes one more line of code to write because in SQL you can create a new variable to filter by without declaration
+
