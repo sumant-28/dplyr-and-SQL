@@ -1,5 +1,5 @@
 # dplyr-and-SQL
-The R package dplyr is described as being a replacement to relational database software that uses SQL to navigate databases. This repository demonstrates how that is the case by using the package while going through the first few examples in sqlzoo.
+The R package dplyr can be used as a replacement to relational database software. The package works on R's native dataframe data type so it is easy to incorporate into a workflow of data preparation to analysis to visualisation. As a demonstration of its usefulness the package is used to answer a sample of the popular sqlzoo problems.
 
 ## SELECTbasics/SELECTfromnobel/SELECTfromworld
 
